@@ -113,7 +113,7 @@ const AdminForm = () => {
     e.preventDefault();
     try {
       const response = await fetch(
-        "https://entntbackend-production.up.railway.app/api/admin/add-company",
+        "https://entnt-backend-hvtripathi21.up.railway.app/api/admin/add-company",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
